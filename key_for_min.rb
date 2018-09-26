@@ -7,7 +7,10 @@ require 'pry'
 def key_for_min_value(name_hash)
   name_hash.each do |name, number|
   lowest_value = number < number  
-  lowest_value
+      puts lowest_value
+    else 
+      puts nil 
+    end 
   end
 end
 
