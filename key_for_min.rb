@@ -7,13 +7,8 @@ def key_for_min_value(name_hash)
   min_value = nil
   name_hash.each do |name, number|
     binding.pry
-      name = number.to_s 
-    ('name = number')
-    if number < number  
-      name_hash[0]
-      puts name
-    else 
-      nil 
-    end 
+  if number < min_value || min_value = nil
+    min_value = number
+    min_key = name
   end
 end
