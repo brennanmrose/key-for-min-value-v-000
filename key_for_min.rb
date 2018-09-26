@@ -6,12 +6,13 @@
 require 'pry'
 def key_for_min_value(name_hash)
   name_hash.each do |name, number|
-    name = number.to_s 
+      name = number.to_s 
     ('name = number')
-    puts name
     if number < number  
       name_hash[0] = lowest, value
       lowest
+  
+    puts name
     else 
       nil 
     end 
