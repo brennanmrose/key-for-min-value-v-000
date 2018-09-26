@@ -4,7 +4,7 @@
 require 'pry'
 def key_for_min_value(name_hash)
   min_key = nul
-  min_value
+  min_value = nul
   name_hash.each do |name, number|
       name = number.to_s 
     ('name = number')
