@@ -7,8 +7,8 @@ def key_for_min_value(name_hash)
       name = number.to_s 
     ('name = number')
     if number < number  
-      name_hash[0] = lowest, value
-      lowest
+      name_hash[0]
+      name
   
     puts name
     else 
