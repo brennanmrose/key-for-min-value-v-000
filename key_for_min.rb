@@ -15,6 +15,11 @@ def key_for_min_value(name_hash)
   end
 end
 
+#   key = k.to_s
+#   eval('key = v')
+#   eval('puts key')
+# end
+
 #a.sort_by { |key, value| value }.first
 
 # birthday_kids.collect do |kids_name, age|
